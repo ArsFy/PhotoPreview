@@ -105,7 +105,7 @@ public class PreviewDialogFragment extends DialogFragment {
     private PhotoPreviewHelper mPhotoPreviewHelper;
     
     public PreviewDialogFragment() {
-        setCancelable(false);
+        // setCancelable(false);
         // 全屏处理
         setStyle(STYLE_NO_TITLE, 0);
         mShareData = new ShareData();
